@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Att {
+public class att {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -17,21 +17,21 @@ public class Att {
         int[] marks = new int[numStudents];
 
         for (int i = 0; i < numStudents; i++) {
-            System.out.print("Enter name of student " + (i + 1) + ": ");
+            System.out.println("Enter name of student " + (i + 1) + ": ");
             names[i] = scanner.nextLine();
 
-            System.out.print("Enter marks of " + names[i] + ": ");
+            System.out.println("Enter marks of " + names[i] + ": ");
             marks[i] = scanner.nextInt();
             scanner.nextLine(); 
         }
 
-        System.out.println("\n--- Student Details ---");
+        System.out.println("Student Details ");
 
         
         for (int i = 0; i < numStudents; i++) {
             System.out.println("Name: " + names[i] + ", Marks: " + marks[i]);
             if (marks[i] < 35) {
-                System.out.println("-> Needs Improvement");
+                System.out.printl(" Needs Improvement");
             }
         }
 
