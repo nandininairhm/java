@@ -1,8 +1,8 @@
-public interface Vehicle {
+interface Vehicle {
     void start();
     void stop();
-}
-public interface FuelBased {
+} 
+interface FuelBased {
     void refuel();
 }
  class Car implements Vehicle, FuelBased {
