@@ -28,7 +28,7 @@ class StudentTest{
         s1.setrollNo(101);
         s1.setpercentage(85);
         System.out.println("Student Profile:");
-        System.out.println("name:"+s1.getnmae());
+        System.out.println("name:"+s1.getName());
         System.out.println("rollNo:"+s1.getrollNo());
         System.out.println("percentage:"+s1.getpercentage()+"%");
     }
