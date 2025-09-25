@@ -20,7 +20,7 @@ public class SimpleFileHandler {
 
         try {
             FileReader reader = new FileReader(fileName);
-            System.out.println("📄 Reading from file:");
+            System.out.println(" Reading from file:");
             int ch;
             while ((ch = reader.read())= -1) {
                 System.out.print((char) ch);
