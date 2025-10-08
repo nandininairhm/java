@@ -22,7 +22,7 @@ public class SimpleFileHandler {
             FileReader reader = new FileReader(fileName);
             System.out.println(" Reading from file:");
             int ch;
-            while ((ch = reader.read())= -1) {
+            while ((ch = reader.read())= !-1) {
                 System.out.print((char) ch);
             }
             reader.close();
